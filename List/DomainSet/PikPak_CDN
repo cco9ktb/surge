@@ -1,0 +1,7 @@
+#########################################
+# Surge Ruleset - PikPak API & CDN
+#
+# This file contains domains of PikPak, Inc.
+#########################################
+DOMAIN,api-drive.mypikpak.com,DIRECT
+AND,((DOMAIN-SUFFIX,mypikpak.com),(DOMAIN-KEYWORD,dl-a10b-))
